@@ -3,8 +3,8 @@ A-  one step is dataset :
      The dataset was manually collected and consists of 10 different color classes, representing diverse visual patterns under varying conditions. The data collection process was designed to ensure class balanceand      visual diversity to improve model generalization.
 
       link dataset :https://github.com/bongaaaaA/datasets/blob/main/Color%20Recognition.rar
+![dataset](https://github.com/user-attachments/assets/772caf0d-1812-425a-96ec-ab65c3e4d1b4)
 
-      ![WhatsApp Image 2025-12-23 at 9 23 48 PM](https://github.com/user-attachments/assets/5cb74fdc-8b06-47a6-a1a4-d5151ccbfa68)
 B-  model CNN WITH VGG19
     This project presents a Convolutional Neural Network (CNN)–based approach for color classification using a VGG19 architecture implemented with PyTorch. The model is trained to classify images into 10 distinct       color classes, focusing on learning robust visual features from RGB images.
     The dataset consists of labeled color images, which were preprocessed through resizing, normalization, and data augmentation to improve generalization and reduce overfitting. A pre-trained VGG19 model was           utilized as a backbone, leveraging transfer learning to benefit from features learned on large-scale image datasets. The final fully connected layers were customized to match the 10-color classification task.
